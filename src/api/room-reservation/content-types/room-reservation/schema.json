@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "room_reservations",
+  "info": {
+    "singularName": "room-reservation",
+    "pluralName": "room-reservations",
+    "displayName": "RoomReservation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room_code": {
+      "type": "string"
+    },
+    "room_name": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "reservedFor": {
+      "type": "string"
+    },
+    "eventType": {
+      "type": "string"
+    },
+    "things_needed": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "dateStart": {
+      "type": "datetime"
+    },
+    "dateEnd": {
+      "type": "datetime"
+    }
+  }
+}

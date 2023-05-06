@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equipment_downloads",
+  "info": {
+    "singularName": "equipment-download",
+    "pluralName": "equipment-downloads",
+    "displayName": "EquipmentDownload"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mou": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

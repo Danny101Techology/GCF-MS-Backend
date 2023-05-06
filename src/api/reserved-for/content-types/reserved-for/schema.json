@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reserved_fors",
+  "info": {
+    "singularName": "reserved-for",
+    "pluralName": "reserved-fors",
+    "displayName": "ReservedFor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equipment_reservations",
+  "info": {
+    "singularName": "equipment-reservation",
+    "pluralName": "equipment-reservations",
+    "displayName": "EquipmentReservation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "equipment_name": {
+      "type": "string"
+    },
+    "equipment_type": {
+      "type": "string"
+    },
+    "equipment_subtype": {
+      "type": "string"
+    },
+    "upload": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "fullName": {
+      "type": "string"
+    }
+  }
+}
